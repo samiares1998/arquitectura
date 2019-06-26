@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code UFPS</title>
+  <link rel="icon" type="image/png" href="../assets/img/small-logo.png">
+  <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="../assets/css/config.css">
+  <link rel="stylesheet" href="../assets/css/login.css">
+</head>
+<body>
+  <div class="container-fluid background-container">
+    <div class="container-form">
+      <img src="../assets/img/logo_color.png" width="290" height="45" class="d-inline-block align-top" alt="">
+      <div class="form-signin">
+          <form action="/login" method="POST">
+  
+  
+          <div class="form-group">
+            <input type="email" class="form-control col-form-label-sm" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control col-form-label-sm" name="pass" placeholder="Password" required>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
+          </div>
+          
+          <input type="submit" class="btn btn-primary fas fa-chevron-right">
+          
+            
+        </form>
+        <div class="form-group">
+            <a href="/registrar">¿No tienes cuenta? Registrate!</a>
+          </div>
+  
+        </div>
+    </div>
+  </div>
+  <script src="../assets/js/jquery/jquery-3.4.1.min.js"></script>
+  <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>

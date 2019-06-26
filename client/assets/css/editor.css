@@ -1,0 +1,131 @@
+@import './variables.css';
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background:
+    linear-gradient(
+      to left, 
+      var(--green1) 40%,
+      var(--blue1) 100%
+    )
+    left 
+    bottom   
+    no-repeat;
+    background-size:100% 5px;
+}
+
+.background {
+  background-image: url('../img/editor/background.jpeg');
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.options {
+  margin-left: auto;
+}
+
+.options .exit {
+  color: var(--red1);
+  font-size: 1.5rem;
+}
+
+.options .save {
+  color: var(--blue1);
+  font-size: 1.5rem;
+}
+
+.options .integrants {
+  float: left;
+  margin-right: 50px;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.user {
+  background: brown; /*Este color varia por cada usuario*/
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin: 5px 2px 0px;
+  float: left;
+}
+
+.container-editor {
+  margin: 3% 0px 0px 2%;
+  /*display: flex;*/
+  width: 60%;
+  height: 80%;
+  background: linear-gradient(0deg, var(--blue2) 10%, var(--green2) 100%);
+  padding: 3% 0px 1% 5%;
+}
+
+.code-editor {
+  height: 60%;
+  width: 80%;
+  display: -ms-flexbox;
+  padding: 100px;
+}
+.chat2{
+    padding: 3% 0px 0px 2%;
+    padding-top: 10%;
+    background-image: url('../img/dashboard/bg_login.jpg');
+    min-width: 290px;
+    min-height: 450px;
+    max-width: 290px;
+    max-height: 450px;
+    padding-left: 40px;
+    margin-top: -140%;
+    background: linear-gradient(0deg, var(--blue2) 10%, var(--green2) 100%);
+    
+
+}
+.col-md-12{
+    
+    padding-left: 70%;
+   
+    
+    
+   
+    
+}
+.row{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.boton{
+  margin-left: 45px;
+  margin-top: 12px;
+  border-color: white;
+  background: linear-gradient(90deg, var(--green2) 10%, var(--blue2) 100%);
+  padding: 5px 30px;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+#formulario{
+    margin-top: 20px;
+}
+#chat{
+    max-height: 2700px;
+    min-height: 270px;
+    max-width: 205px;
+    min-width: 205px;
+}
+
+/*#editor-wrapper {
+  width: 70%;
+  margin-left:auto;
+  margin-right:3em;
+  margin-top:3em;
+}*/

@@ -1,0 +1,68 @@
+{{>header}}
+<body>
+  <div class="container-fluid background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar">
+      <a class="navbar-brand" href="">
+        <img src="../assets/img/big-logo.JPEG" width="250" height="40" class="d-inline-block align-top" alt="">
+      </a>
+      <div class="options">
+        <div class="integrants">
+          <!-- Cada div sera un usuario-->
+          <div class="user">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="user">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+        <a href="" class="save"><i class="far fa-save"></i></a>
+        <a href="" class="exit"><i class="fas fa-sign-out-alt"></i></a>
+      </div>
+    </nav>
+    <input type="text" name="room" id="room" value="{{room}}" style="visibility:hidden">
+
+    <div class="container-editor">
+      
+      
+      <!--<a href="" style="color: white; margin-right:auto">Ultima vez</a>-->
+    <textarea name="" id="editor" class="code-editor" cols="20" rows="10" >
+        
+    </textarea>
+    <div class="row">
+         <div class="col-md-5">
+               <label class="mr-sm-2" for="inlineFormCustomSelect">Seleccione Un Tema</label>
+           <select class="custom-select mb-2 mr-sm-2 mb-sm-0"   onchange="selectTheme()" id=select>
+            <option selected>dracula</option>
+            <option>duotone-dark</option>
+            <option>duotone-light</option>
+            <option>erlang-dark</option>
+            <option>tomorrow-night-bright</option>
+         
+        </select>
+              </div>
+     
+      </div>
+     </div>
+
+    
+<div class="row">
+           <div class="col-md-12">
+            <div class="chat2">
+              <textarea readonly id="chat"></textarea>
+              
+          <form id="formulario">
+   			<input type="text" id="texto" >
+   		<button class= "boton"> Enviar </button>   		
+   	</form>  
+     
+             
+              </div>
+            </div>
+         </div> 
+
+
+  <!--script src="../assets/js/jquery/jquery-3.4.1.min.js"></script>
+  <script src="../assets/js/bootstrap/bootstrap.min.js"></script-->
+    </div>
+</body>
+{{>footer}}
